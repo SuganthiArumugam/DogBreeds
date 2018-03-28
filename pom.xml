@@ -115,10 +115,17 @@
 <!-- https://mvnrepository.com/artifact/org.codehaus.sonar/sonar-maven3-plugin -->
 <dependency>
     <groupId>org.codehaus.sonar</groupId>
-    <artifactId>sonar-maven3-plugin</artifactId>
+    <artifactId>sonar-maven-plugin</artifactId>
     <version>5.1</version>
     <type>pom</type>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.codehaus.sonar/sonar-maven-plugin -->
+<dependency>
+    <groupId>org.codehaus.sonar</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>5.1</version>
+</dependency>
+
 
   </dependencies>
 </project>
